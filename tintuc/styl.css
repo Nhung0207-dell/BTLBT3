@@ -1,0 +1,163 @@
+/* CSS Cơ bản & Định dạng khung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* 1. Banner Header */
+header {
+    background: linear-gradient(135deg, #0088cc 0%, #33cc99 100%);
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* 2. Menu Điều hướng Nav */
+nav {
+    background-color: #ffffff;
+    padding: 12px 0;
+    text-align: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a.active {
+    background-color: #0088cc;
+    color: white;
+}
+
+/* 3. Bố cục 2 cột Cột chính Main & Cột bên Aside */
+main {
+    display: flex;
+    gap: 20px;
+}
+
+/* Cột bài viết chính */
+article {
+    flex: 2.5;
+    background-color: #e2f0d9; /* Màu nền xanh pastel nhạt */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+article header h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #000;
+}
+
+article header p {
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+article p {
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    font-style: italic;
+    font-size: 13px;
+    color: #444;
+    margin-top: 15px;
+    border-top: 1px dashed #b2d2a4;
+    padding-top: 10px;
+}
+
+/* Cột tin liên quan Aside */
+aside {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    height: fit-content;
+}
+
+aside h3 {
+    margin-top: 0;
+    font-size: 16px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+aside li:last-child {
+    border-bottom: none;
+}
+
+aside a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.4;
+    display: block;
+}
+
+aside a:hover {
+    color: #0088cc;
+}
+
+/* 4. Footer Chân trang */
+footer.page-footer {
+    background-color: #dce6f1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.5;
+}
