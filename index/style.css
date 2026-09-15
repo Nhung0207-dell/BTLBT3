@@ -1,0 +1,66 @@
+/* 1. Nền trang web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+/* 2. Banner đầu trang */
+header {
+    background-color: lightskyblue;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* 3. Menu điều hướng */
+nav {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    padding: 10px 20px;
+    display: flex; /* Đã sửa display: left thành display: flex */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Kiểu dáng các nút trong nav */
+nav a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Màu riêng cho từng nút */
+.btn-gioithieu { background-color: #D1F2EB; }
+.btn-kynang { background-color: #FDEBD0; }
+.btn-lienhe { background-color: #EBDEF0; }
+
+/* 4. Chia 3 cột nội dung */
+main {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    flex: 1;
+}
+
+/* 5. Khung màu trắng bo góc */
+.khung-trang {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* 6. Chân trang */
+footer {
+    background-color: #B5C6D8;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
