@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 950px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+header h2 {
+    margin: 5px 0 0 0;
+    font-size: 15px;
+    color: #666;
+    font-weight: normal;
+}
+
+/* Layout Main */
+main {
+    display: flex;
+    padding: 25px;
+    gap: 25px;
+}
+
+.content-area {
+    flex: 2.5;
+}
+
+/* Section Video */
+section h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+/* Section Audio */
+.audio-section {
+    margin-top: 25px;
+}
+
+.audio-item {
+    margin-bottom: 15px;
+}
+
+.audio-item p {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Aside Lịch học */
+aside {
+    flex: 1;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    height: fit-content;
+}
+
+aside h3 {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #e6e6e6;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 12px;
+    font-size: 13px;
+    color: #444;
+    border-top: 1px solid #ddd;
+}
+
+footer address {
+    font-style: normal;
+}
